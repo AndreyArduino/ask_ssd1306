@@ -14,13 +14,6 @@ void setup() {
 	// очистим экран
 	askOled.clear();
 	delay(1000);
-	/*char* lPrint8 = "01% 23.45 6789";
-	askOled.print(lPrint16, 0, 0, 1);
-	char* lPrint16 = "01% 23.45 6789";
-	askOled.print(lPrint16, 0, 2, 2);
-	lPrint8 = "ТЕСТ ДИСПЛЕЯ";
-	askOled.print(lPrint8, 0, 4, 1);*/
-
 
 	
 	askOled.print(" !\"#$%&'()*+,-./", 0, 0, 1);
@@ -42,32 +35,9 @@ void setup() {
 
 	askOled.print(" !\"#$%&'", 0, 0, 3);
 	askOled.print("()*+,-./", 0, 2, 3);
-
 	askOled.print("89:;<=>?@A", 0, 4, 3);
 	askOled.print("B", 0, 5, 3);
 	delay(5000);
-	/*
-	askOled.clear();
-	askOled.print("ABCDEFGHIJKLMNO", 0, 0, 3);
-	askOled.print("PQRSTUVWXYZ[\\]^_`", 0, 2, 3);
-	delay(5000);
-	askOled.clear();
-	askOled.print("abcdefghijkl", 0, 0, 3);
-	askOled.print("mnopqrstuv", 0, 2, 3);
-	askOled.print("wxyz{|}~", 0, 4, 3);
-	delay(10000);
-	askOled.clear();
-	askOled.print("АБВГДЕЁЖ", 0, 0, 3);
-	askOled.print("ЗИЙКЛМНО", 0, 2, 3);
-	askOled.print("ПРСТУФХЦ", 0, 4, 3);
-	askOled.print("ЧШЩЪЫЬЭЮЯ", 0, 6, 3);
-	delay(5000);
-	askOled.clear();
-	askOled.print("абвгдеёжзий", 0, 0, 3);
-	askOled.print("клмнопрстуф", 0, 2, 3);
-	askOled.print("хцчшщъыьэюя", 0, 4, 3);
-	//askOled.print("", 0, 6, 3);
-	*/
 }
 
 void loop() {
