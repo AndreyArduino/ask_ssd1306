@@ -1,0 +1,20 @@
+#########################################
+# Syntax Coloring Map for SSD1306		#
+#########################################
+
+#########################################
+# Datatypes (KEYWORD1)					#
+#########################################
+
+ask_ssd1306 KEYWORD1
+
+#########################################
+# Methods and Functions (KEYWORD2)		#
+#########################################
+
+begin				KEYWORD2
+displayActivated	KEYWORD2
+setUp				KEYWORD2
+clear				KEYWORD2
+fill				KEYWORD2
+print				KEYWORD2
