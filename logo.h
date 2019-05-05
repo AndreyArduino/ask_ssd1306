@@ -1,5 +1,5 @@
 /* 
-**  Image data for экосветоч4
+**  Image data for экосветоч
 */
 
 const PROGMEM uint8_t logoData[] =
